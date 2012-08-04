@@ -1,9 +1,10 @@
-# Sample git hooks
+## Sample git hooks
 
-Editing these hooks, replacing {Your-Email-Here} before copying into your .git/hooks folder.
+1. Edit the hooks, replacing {Your-Email-Here} with your email address
+1. Copy into your .git/hooks folder
+1. Make them executable
 
-Make them executable after copying.
-
-# Requires:
+## Requires
 
  * mail (Ubuntu: apt-get install mailutils)
+

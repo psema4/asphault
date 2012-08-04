@@ -1,6 +1,8 @@
-Simple test repository for [Concrete](https://github.com/ryankee/concrete).
+# Asphault
 
-Usage:
+A Hello, World repository to test [Concrete](https://github.com/ryankee/concrete) features.
+
+## Usage
 
 1. Fork the repo to your github account
 1. `md ~/devel/`
@@ -15,3 +17,7 @@ Usage:
 1. Open a web browser to
  * http://localhost:4567
  * or if your specified a port number with -p, http://localhost:{Port}
+
+## Requires
+
+Sample git hooks require mail, see `git-hooks/README.md`
