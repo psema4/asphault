@@ -1,7 +1,7 @@
 # test runner
 
-bash pass.sh
-node pass.js
+bash t/pass.sh
+node t/pass.js
 
-#bash fail.sh
-#node fail.js
+bash t/fail.sh
+node t/fail.js
