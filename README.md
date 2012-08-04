@@ -12,3 +12,6 @@ Usage:
 1. Run the ci server, or daemonize it
  * `concrete .`
  * `nohup concrete -p 8080 ~/devel/asphault &`
+1. Open a web browser to
+ * http://localhost:4567
+ * or if your specified a port number with -p, http://localhost:{Port}
