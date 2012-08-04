@@ -2,4 +2,4 @@
 
 date > /tmp/asphault-build-worked
 echo "PASS" >> /tmp/asphault-build-worked
-mail -s "Asphault CI Server" psema4@gmail.com < /tmp/asphault-build-worked
+mail -s "Asphault CI Server" {Your-Email-Here} < /tmp/asphault-build-worked
