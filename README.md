@@ -8,6 +8,7 @@ A Hello, World repository to test [Concrete](https://github.com/ryankee/concrete
 1. `md ~/devel/`
 1. `cd ~/devel/`
 1. `git clone git@github.com:`{Your-Github-ID}`/asphault.git`
+1. `git config --add concrete.runner "bash t/runner.sh"`
 1. Edit/add `runner.sh` and tests under `t/`
 1. `git commit -am "`{Your Message}`"`
 1. `git push origin master`
