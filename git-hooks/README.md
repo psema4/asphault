@@ -6,7 +6,7 @@
  * `cp git-hooks/build-* ./.git/hooks/`
  * `chmod u+x .git/hooks/build-*`
 1. Update them with an email address to notify.  Be sure to escape the @:
- * `perl -pi -e 's/\{Your-Email-Here\}/`username\@host.com`/g' .git/hooks/build-*
+ * `perl -pi -e 's/\{Your-Email-Here\}/`username\@host.com`/g' .git/hooks/build-*`
 
 ## Requires
 
