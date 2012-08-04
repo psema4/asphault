@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+date > /tmp/asphault-build-worked
+echo "PASS" >> /tmp/asphault-build-worked
+mail -s "Asphault CI Server" psema4@gmail.com < /tmp/asphault-build-worked

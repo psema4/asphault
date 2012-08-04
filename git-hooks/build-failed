@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+date > /tmp/asphault-build-failed
+echo "FAIL" >> /tmp/asphault-build-failed
+mail -s "Asphault CI Server" psema4@gmail.com < /tmp/asphault-build-failed
+
