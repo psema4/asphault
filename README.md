@@ -7,7 +7,7 @@ A Hello, World repository to test [Concrete](https://github.com/ryankee/concrete
 Assuming an Ubuntu environment, this should get you up and running:
 
 1. Fork this repo to your github account
-1. `md ~/devel/`
+1. `mkdir ~/devel/`
 1. `cd ~/devel/`
 1. `git clone git@github.com:{Your-Github-ID}/asphault.git`
 1. `cd asphault`
