@@ -11,7 +11,7 @@ Assuming an Ubuntu environment, this should get you up and running:
 1. `cd ~/devel/`
 1. `git clone git@github.com:{Your-Github-ID}/asphault.git`
 1. `cd asphault`
-1. `chmod 744 t/runner.sh
+1. `chmod 744 t/runner.sh`
 1. `git config --add concrete.runner "bash t/runner.sh"`
 1. Edit/add `runner.sh` and tests under `t/` if desired
  1. `git commit -am "{Your-Commit-Message}"`
