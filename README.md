@@ -11,10 +11,11 @@ Assuming an Ubuntu environment, this should get you up and running:
 1. `cd ~/devel/`
 1. `git clone git@github.com:{Your-Github-ID}/asphault.git`
 1. `cd asphault`
+1. `chmod 744 t/runner.sh
 1. `git config --add concrete.runner "bash t/runner.sh"`
-1. Edit/add `runner.sh` and tests under `t/`
-1. `git commit -am "{Your-Commit-Message}"`
-1. `git push origin master`
+1. Edit/add `runner.sh` and tests under `t/` if desired
+ 1. `git commit -am "{Your-Commit-Message}"`
+ 1. `git push origin master`
 1. Run the ci server, or daemonize it
  * `concrete .`
  * `nohup concrete -p 8080 ~/devel/asphault &`
@@ -30,4 +31,12 @@ Assuming an Ubuntu environment, this should get you up and running:
 
 ## Requires
 
-In addition to concrete and it's requirements (node + npm), the sample git hooks require the `mail` tool - see `git-hooks/README.md`
+In addition to concrete and it's requirements (node + npm + mongodb), the sample git hooks require the `mail` tool - see `git-hooks/README.md`
+
+For help setting up MongoDB, select the appropriate tutorial for your OS below:
+
+* [Debian/Ubuntu](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-debian-or-ubuntu-linux/)
+* [OS X](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/)
+* [Redhat/Fedora/Centos](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-redhat-centos-or-fedora-linux/)
+* [Generic Linux](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-linux/)
+
