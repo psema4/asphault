@@ -13,7 +13,7 @@ Assuming an Ubuntu environment, this should get you up and running:
 1. `cd asphault`
 1. `chmod 744 t/runner.sh`
 1. `git config --add concrete.runner "bash t/runner.sh"`
-1. Setup [git hooks](https://github.com/psema4/asphault/blob/master/git-hooks/README.md)
+1. Setup [git hooks](https://github.com/psema4/asphault/blob/master/git-hooks)
 1. Edit/add `runner.sh` and tests under `t/` if desired
  1. `git commit -am "{Your-Commit-Message}"`
  1. `git push origin master`
